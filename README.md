@@ -1,2 +1,2 @@
-# Games-Projects-JS
+# javaScriptGamesGit
 This contains my personal games in vanila javascript
