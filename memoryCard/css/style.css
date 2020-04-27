@@ -1,0 +1,53 @@
+body {
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.template {
+  width: 500px;
+  position: relative;
+  height: 525px;
+  margin: 0 auto;
+  text-align: center;
+  top: 16vh;
+}
+
+.template > img {
+  margin: 10px;
+  order: 1px solid #d3d3d3;
+  text-align: center;
+  border-radius: 15px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 7px 2px #545353;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+#wr-result, #wr-moves, #wr-timer {
+  text-align: left;
+  margin: 0 0 10px 25px;
+  color: #05a081;
+  font-size: 18px;
+  font-weight: 800;
+}
+img.open {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+  background: #89C4FF;
+  cursor: default;
+}
